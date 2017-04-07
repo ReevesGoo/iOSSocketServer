@@ -41,16 +41,7 @@
     self.recorder.delegate = self;
     _play = [[Play alloc] init];
     
-    
-//    [VoiceConvertHandle shareInstance].delegate = self;
-
-    // Do any additional setup after loading the view, typically from a nib.
 }
-
-//- (void)record:(Record *)record AudioBuffer:(const void *)buffer withQueue:(AudioQueueRef)queue {
-//    [self.myServer sendData:buffer];
-//}
-
 
 -(void)covertedData:(NSData *)data{
 //    [self.myServer sendData:data];
