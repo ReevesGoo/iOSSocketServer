@@ -19,7 +19,7 @@
 #define PORT 12344
 #define MAXDATASIZE 100
 #define LENGTH_OF_LISTEN_QUEUE  20
-#define BUFFER_SIZE 256
+#define BUFFER_SIZE 1024
 #define THREAD_MAX    5
 NSLock *lock;  
 
